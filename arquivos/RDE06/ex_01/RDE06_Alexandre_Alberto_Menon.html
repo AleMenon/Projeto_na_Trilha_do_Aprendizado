@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/favicon.ico" type="img/x-icon">
+    <title>RDE06 - Síntese da aula</title>
+</head>
+<body>
+<font face="verdana">
+
+    <h1>Hiperlinks</h1>
+    
+    <ol type="I">
+        <li><a href="#utilidade">Para que serve</a></li>
+        <li><a href="#funcionalidade">Como funciona</a></li>
+        <li><a href="#sintaxe">Sintáxes</a></li>
+    </ol>
+    
+    <h3 id="utilidade">Para que serve?</h3>
+        <p>Hiperlinks servem para nos guiar de uma página a outra por meio de textos ou imagens marcadas, assim ajudando na navegação pelo site e facilitando o acesso a diversos temas.</p>
+    
+    <h3 id="funcionalidade">Como funciona?</h3>
+    <p>Funciona usando um comando ao qual adicionamos em determinado texto ou imagem, e no mesmo comando, colocamos um endereço para o qual vamos ser direcionados ao clicar. Esse direcionamento pode variar entre <b><a href="#externo">remotos</a>, <a href="#interno">internos</a>, <a href="#local">locais</a> e com <a href="#endereco_eletronico">endereço de correio</a> ou <a href="#download">arquivos</a>.</b></p>
+    
+    <h3 id="sintaxe">Sintáxes</h3>
+        <p>Falando sobre as sitáxes agora, na linguagem de marcação de texto, usamos a tag &lt a &gt e a continuação do código que irá nos direcionar para o endereço desejado.</p>
+        <p>Agora nós vamos falar sobre cada uma de suas variações.</p>
+    
+        <h4><a name="externo">Hiperlinks externos ou remotos</a></h4>
+            <p>São links que referenciam a sites externos, feitos por outros autores por exemplo</p>
+                
+                <p><b>Sintáxe:</b></p>
+                    <img src="img/hiperlink_externo.png" alt="Imagem de um hiperlink externo">
+                    <p>A sintáxe acima funcionaria como no link abaixo:<br></p>
+                    <a href="https://irati.ifpr.edu.br" target="_blank">Instituto Federal do Paraná Campus Irati</a>
+                    <p>Vou aproveitar o exemplo acima para explicar o que é o "target". Resumindo, temos dois tipos de target principal, o _blank e o _self. O primeiro serve para quando clicarmos, ele abrir o direcionamento em uma nova guia, já o segundo funciona para, quando clicarmos, substituir a guia aberta pelo direcionamento.<br>Um exemplo de _self está no link abaixo:<br></p>
+                    <a href="https://irati.ifpr.edu.br" target="_self">Instituto Federal do Paraná Campus Irati</a>
+
+        <h4><a name="interno">Hiperlinks internos</a></h4>
+            <p>Esse link funciona de um jeito que direciona o usuário para um lugar diferente, mas na mesma página. O exemplo abaixo foi o usado nesse mesmo site ao qual você está lendo isso.</p>
+                
+                <p><b>Sintáxe:</b></p>
+                    <p>Para usarmos esse hiperlink, nós precisamos de um id que será colocado no local ao qual queremos ser direcionados. Para isso, existem dois tipos de tag:</p>
+                    <img src="img/hiperlink_id_01.png" alt="Imagem de marcação de id simplificado"><br>
+                    <img src="img/hiperlink_id_02.png" alt="Imagem de marcação de id extendido">
+                    <p>E então, após colocar o id, colocamos o hiperlink ao qual queremos ser direcionados:</p>
+                    <img src="img/hiperlink_interno.png" alt="Imagem de um hiperlink interno">
+
+        <h4><a name="local">Hiperlinks locais</a></h4>
+        <p>Esse hiperlink serve para nos direcionar a outras páginas dentro do mesmo site.</p>
+        
+            <p><b>Sintáxe:</b></p>
+                <img src="img/hiperlink_local.png" alt="Imagem de um hiperling local">
+                <p>A sintáxe acima funciona como no link abaixo:<br></p>
+                <a href="direcionamento_local.html" target="_blank">Direcionamento local</a>
+
+        <h4><a name="imagem">Hiperlinks em imagens</a></h4>
+        <p>Esse hiperlink serve para abrir um endereço ao clicar na imagem marcada.</p>
+        
+            <p><b>Sintáxe:</b></p>
+                <img src="img/hiperlink_em_imagem.png" alt="Imagem de um hiperlink em imagem">
+                <p>A sintáxe acima funciona ao clicar na imagem abaixo:</p>
+                <a href="https://pt.wikipedia.org/wiki/Hiperligação" target="_blank">
+                <img src="img/html.jpg" alt="Imagem de exemplo de html">
+                 </a>
+
+        <h4><a name="endereco_eletronico">Hiperlink para endereço eletrônico</a></h4>
+        <p>Esse hiperlink se trata de um link que direciona a um endereço eletrôlico, ou seja, um e-mail.</p>
+        
+            <p><b>Sintáxe:</b></p>
+                <p>A sintáxe funciona como no endereço abaixo:<br></p>
+                <a href="mailto:alexandre.albertomenon.ifpr@gmail.com">alexandre.albertomenon.ifpr@gmail.com</a>
+
+        <h4><a name="download">Hiperlink para download de arquivos</a></h4>
+            <p>Por último, mas não menos importante, temos o hiperlink para download de arquivos, que como o nome já diz, ao clicar, irá baixar algum arquivo em expecífico.</p>
+        
+            <p><b>Sintáxe</b></p>
+                 <img src="img/hiperlink_download.png" alt="Imagem de marcação de texto para download">
+                <p>A sintáxe acima funcionará como está embaixo:</p>
+                <img src="img/html.jpg" alt="Imagem de exemplo de html">
+                <a href="img/html.jpg" download="img/html.jpg" type="image/png"><br>Download da imagem acima</a>
+
+</font>
+</body>
+</html>

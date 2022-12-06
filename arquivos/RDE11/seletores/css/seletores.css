@@ -1,0 +1,52 @@
+div{
+    background-color: rgb(91, 122, 55);
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:white;
+}
+.b1{
+    background-color: rgb(155, 233, 233);
+    color: rgb(153, 202, 55);
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid rgb(65, 94, 9);
+    width:60px;
+    height:20px;
+}
+.b2{
+    background-color: salmon;
+    color: antiquewhite;
+    margin: 20px;
+    padding:10px;
+    border: 1px solid rgb(104, 40, 40);
+    width: 60px;
+    height:20px
+}
+.agrupamento{
+    background-color: aquamarine;
+    color: antiquewhite;
+    border:1px solid rgb(23, 99, 73);
+    margin: 20px;
+    padding: 10px;
+}
+#unico{
+    background-color: rgb(12, 59, 12);
+    color: antiquewhite;
+    border: 1px solid rgb(16, 59, 45);
+    margin: 20px;
+    padding:10px;
+}
+.personalizado{
+    background-color: rgb(9, 41, 9);
+    color: rgb(178, 187, 165);
+    border: 1px solid rgb(6, 48, 6);
+    margin: 20px;
+    padding:10px;
+}
+.personalizado:hover{
+    border:5px solid rgb(10, 61, 10);
+    background-color: rgb(12, 73, 12);
+}
+.pseudo::selection{
+    color: rgb(7, 39, 13);
+    background: rgb(75, 241, 116);
+}

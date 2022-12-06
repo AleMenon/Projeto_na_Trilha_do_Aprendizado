@@ -1,0 +1,98 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-image:url(https://s2.glbimg.com/yZgZkpD6_JDEJNqhnMFurs0hjRQ=/0x0:960x560/984x0/smart/filters:strip_icc/i.s3.glbimg.com/v1/AUTH_59edd422c0c84a879bd37670ae4f538a/internal_photos/bs/2018/d/3/L2QnsoSyWZCiK4Xs1iPA/vista-panoramica-de-irati-pr.jpg);
+    background-size: 100% 105%;
+}
+::-webkit-scrollbar{
+    display: none;
+}
+img{
+    height: 150px;
+}
+.navbar{
+    float: right;
+    margin-top: 100px;
+    margin-right: 10px;
+}
+.navbar a{
+    padding: 5px;
+    text-decoration: none;
+    color: white;
+}
+.navbar a:hover{
+    color: rgb(19, 112, 19);
+}
+.cabecalho{
+    background-color: rgb(2, 20, 11);
+    margin: 2px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px #08101a98;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+.fim{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.direitos{
+    position: absolute;
+    top: auto;
+}
+.direitos p{
+    background-color: #494b1a;
+    padding: 2px;
+    border-radius: 5px;
+}
+.corpo{
+    color: rgb(211, 211, 211);
+    background-color: rgb(8, 63, 35);   
+    margin: 2px;
+    margin-top: 10px;
+    padding: 20px;
+    height: 760px;
+    border-radius: 5px;
+    box-shadow: 0px 10px 10px 0px #08101a98;
+}
+table{
+    border: 2px solid #08101a98;
+}
+table td{
+    border: 2px solid #08101a98;
+    text-align: justify;
+    padding:10px;
+    height: auto;
+    width: 25%;
+}
+table th{
+    text-align: center;
+    padding: 5px;
+}
+.corpo a{
+    text-decoration: none;
+}
+.corpo a:hover{
+    color: rgb(31, 170, 31);
+}
+#santa{
+    width: 100%;
+    height: 315px;
+}
+#matriz{
+    width: 100%;
+    height: 315px;
+}
+#parque_aquatico{
+    width: 100%;
+    height: 315px;
+}
+#vila{
+    width: 100%;
+    height: 315px;
+}
+.imgs{
+    text-align: none;
+    font-size: 13px;
+}

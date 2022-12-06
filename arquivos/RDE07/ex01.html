@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>Outras tags</title>
+</head>
+<body>
+<font face="verdana" size="3">
+
+    <h1>Outras tags</h1>
+        <p>Outras tags que valem a pena ser vistas são:</p>
+        <ol type="1">
+            <font size="4">
+            <li><code><a href="#table">&lttable&gt</a></code></li>
+            <li><code><a href="#delins">&ltdel&gt</a></code> </li>
+            <li><code><a href="#delins">&ltins&gt</a></code> </li>
+            <li><code><a href="#sub">&ltsub&gt</a></code> </li>
+            <li><code><a href="#blockq">&ltblockquote&gt</a></code> </li>
+            <li><code><a href="#q">&ltq&gt</a></code> </li>
+            <li><code><a href="#abbr">&ltabbr&gt</a></code> </li>
+            <li><code><a href="#address">&ltaddress&gt</a></code> </li>
+            <li><code><a href="#blockq">&ltcite&gt</a></code> </li>
+            <li><code><a href="#bdo">&ltbdo&gt</a></code> </li>
+            <li><code><a href="#code">&ltcode&gt</a></code> </li>
+            <li><code><a href="#pre">&ltpre&gt</a></code> </li>
+            <li><code><a href="#kbd">&ltkbd&gt</a></code></li>
+            </font>
+        </ol>
+    <h3 id="table"><font size="5"><code>&lttable&gt</code></font></h3>
+        <p>Esse comando permite organizar dados em forma de tabela, e para isso usa-se a tag <code>&lttable&gt</code> para abrir a tabela, e então, inserimos as tags <code>&lttr&gt</code> para iniciar uma linha, <code>&ltth&gt</code>, que é usada para fazer o cabeçalho destacado, e por fim <code>&lttd&gt</code>, usado para inserir o resto das informações da tabela.</p>
+        <h4>Sintaxe</h4>
+        <table border="1">
+            <tr>
+                <th>Exemplo 1</th>
+                <th>Exemplo 2</th>
+                <th>Exemplo 3</th>
+            </tr>
+            <tr>
+                <td>Sobre</td>
+                <td>Sobre</td>
+                <td>Sobre</td>
+            </tr>
+            <tr>
+                <td>Descrição</td>
+                <td>Descrição</td>
+                <td>Descrição</td>
+            </tr>
+        </table>
+    
+    <h3 id="delins"><font size="5"><code>&ltdel&gt</code></font> e <font size="5"><code>&ltins&gt</code></font></h3>
+        <p>As duas tags são bem similares, resumindo, o <code>&ltdel&gt</code> serve para cortar uma palavra ao meio e o <code>&ltins&gt</code> para dar destaque, sublinhando o texto.</p>
+        <h4>Sintaxe</h4>
+        <p>Gosto de <del>java</del> <ins>HTML</ins>.</p>
+    
+    <h3 id="sub"><font size="5"><code>&ltsub&gt</code></font></h3>
+        <p>Essa tag tem a função de deixar o texto menor e um pouco deslocado na linha.</p>
+        <h4>Sintaxe</h4>
+        <p>Qual <sub>palavra</sub> está usando a tag <code>&ltsub&gt</code>?</p>
+
+    <h3 id="blockq"><font size="5"><code>&ltblockquote&gt</code></font> e <font size="5"><code>cite</code></font></h3>
+        <p>Primeiramente, sobre o <code>&ltblockquote&gt</code>, é usado para fazer uma citação  longa, e na própria tag é usado o <code>cite</code> para referenciar o site de onde foi tirado a citação.<br><i>Exemplo: <code>&ltblockquote cite="link usado"&gt</code> Citação <code>&lt/blockquote&gt</code></i></p>
+        <h4>Sintaxe</h4>
+        <p>Citação tirada de w3schools:</p>
+        <blockquote cite="https://www.w3schools.com/tags/tag_blockquote.asp">O Elemento HTML <code>&ltblockquote&gt</code> (ou Elemento HTML de citação de bloco) indica que o texto incluído é uma longa citação.</blockquote>
+
+    <h3 id="q"><font size="5"><code>&ltq&gt</code></font></h3>
+        <p>Essa tag é parecida com a que foi usado acima, mas é para fazer citações menores, e usando essa tag, deixa o texto com aspas onde inicia e onde termina a citação.</p>
+        <h4>Sintaxe</h4>
+        <p>Desenvolvimento</p>
+        <q>Citação menor</q>
+        <p>Continuação do desenvolvimento</p>
+
+    <h3 id="abbr"><font size="5"><code>&ltabbr&gt</code></font></h3>
+        <p>Essa tag é usada para marcar abreviações, deixando elas com um sublinhado pontilhado, e dentro da própria tag usa-se o <code>title</code> para descrever a abreviação usada.<br><i>Exemplo: <code>&ltabbr title="Doutor"&gt</code> Dr. <code>&lt/abbr&gt</code></i></p>
+        <h4>Sintaxe</h4>
+        <p><abbr title="Doutor">Dr.</abbr> Juliano</p>
+
+    <h3 id="address"><font size="5"><code>&ltaddress&gt</code></font></h3>
+        <p>Usado para marcar o endereço de contato de um autor de um determinado arquivo ou documento. O texto marcado com essa tag ficará necessariamente em itálico.</p>
+        <h4>Sintaxe</h4>
+        <address>Alexandre Alberto Menon<br><a href="mailto:alexandre.albertomenon.ifpr@gmail.com">Email</a></address>
+
+    <h3 id="bdo"><font size="5"><code>&ltbdo&gt</code></font></h3>
+        <p>Usado para inverter o texto escrito usando dentro da própria tag <code>dir=ltr</code> de "left to right"</i> e <code>dir=rtl</code> de "right to left".</p>
+        <h4>Sintaxe</h4>
+        <bdo dir="ltr">Direcionamento "left to right".</bdo><br>
+        <bdo dir="rtl">Direcionamento "right to left".</bdo>
+
+    <h3 id="code"><font size="5"><code>&ltcode&gt</code></font></h3>
+        <p>Essa tag é usada para definir uma parte de um código de computação, mudando para uma fonte expecífica.</p>
+        <h4>Sintaxe</h4>
+        <p>Usando a tag <code>&ltcode&gt</code> para marcar um texto.</p>
+
+    <h3 id="pre"><font size="5"><code>&ltpre&gt</code></font></h3>
+        <p>Essa tag é usada para marcar um texto e deixa-lo do jeito que foi enviado, sem precisar formatar ou algo do tipo</p>
+        <h4>Sintaxe</h4>
+        <pre><font face="arial" size="3">
+            Sim, tenho saudades.
+            Sim, acuso-te porque fizeste
+            o não previsto nas leis da amizade e da natureza
+            nem nos deixaste sequer o direito de indagar
+            porque o fizeste, porque te foste</font></pre>
+            <p>O texto acima foi escrito sem o uso de qualquer tag além do <code>&ltpre&gt</code>.</p>
+
+    <h3 id="kbd"><font size="5"><code>&ltkbd&gt</code></font></h3>
+        <p>Essa tag é parecida com o <code>&ltcode&gt</code> citado acima, mas é usada para marcar alguma função ou tecla do teclado.</p>
+        <h4>Sintaxe</h4>
+        <p><kbd>Ctrl</kbd> + <kbd>C</kbd> copia alguma informação.</p>
+        <p><kbd>Ctrl</kbd> + <kbd>V</kbd> cola a informação copiada.</p>
+
+</font>
+</body>
+</html>

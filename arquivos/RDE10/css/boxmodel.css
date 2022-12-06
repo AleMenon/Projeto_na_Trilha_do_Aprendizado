@@ -1,0 +1,25 @@
+body
+{
+    font-family: Arial, Helvetica, sans-serif;
+    /*margin: 100px 60px 120px 50px;*/
+    border-style:solid;
+    border-width:5px;
+
+    border-top-color: blue;
+    border-right-color: red;
+    border-bottom-color: green;
+    border-left-color: yellow;
+    
+    padding: 20px;
+   
+    margin-top: 100px;
+    margin-right: 60px;
+    margin-bottom: 120px;
+    margin-left: 50px;
+
+}
+
+h1
+{
+    background-color:salmon; 
+}

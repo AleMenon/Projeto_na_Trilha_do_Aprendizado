@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon">
+    <title>Multimidias</title>
+</head>
+<body>
+<font face="verdana">
+
+    <h1>Multimidias</h1>
+        <p>São diversos tipos de mídias, tais como: imagens, videos, audios, sites, etc.</p>
+        
+        <h2>Incorporando multimidias</h2>
+            <h3>Tag iframe</h3>
+                <code>&ltiframe src="nome" frameborder="espessura da borda" width="tamanho horizontal" height="tamanho vertical"&gt&lt/iframe&gt</code>
+
+            <h3>Incorporar sites</h3>
+                <iframe src="https://irati.ifpr.edu.br" frameborder="1" width="500px" height="300px"></iframe>
+
+            <h3>Incorporar audios</h3>
+                <iframe width="100%" height="300" scrolling="no" frameborder="no" src="https://w.soundcloud.com/player/?url=https%3A//api.soundcloud.com/tracks/182404702&color=%23ff5500&auto_play=false&hide_related=false&show_comments=true&show_user=true&show_reposts=false&show_teaser=true&visual=true"></iframe><div style="font-size: 10px; color: #cccccc;line-break: anywhere;word-break: normal;overflow: hidden;white-space: nowrap;text-overflow: ellipsis; font-family: Interstate,Lucida Grande,Lucida Sans Unicode,Lucida Sans,Garuda,Verdana,Tahoma,sans-serif;font-weight: 100;"><a href="https://soundcloud.com/dodo-ahmed-611" title="Dodo Ahmed" target="_blank" style="color: #cccccc; text-decoration: none;">Dodo Ahmed</a> · <a href="https://soundcloud.com/dodo-ahmed-611/macklemore-ryan-lewis-cant-hold-us-feat-ray-dalton" title="Macklemore &amp; Ryan Lewis - Can&#x27;t Hold Us Feat. Ray Dalton" target="_blank" style="color: #cccccc; text-decoration: none;">Macklemore &amp; Ryan Lewis - Can&#x27;t Hold Us Feat. Ray Dalton</a></div>
+
+            <h3>Incorporar videos</h3>
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/_bzATDSKuVs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <h2>Tag de video</h2>
+            <video poster="midias/video/Bike.jpg" width="700px" controls>
+                <source src="midias/video/_Bike.mp4" type="video/mp4">
+                <source src="midias/video/Bike.ogv" type="video/ogv">
+                <source src="midias/video/Bike.webm" type="video/webm">
+            </video>
+
+        <h2>Tag de audio</h2>
+            <audio preload="metadata" controls>
+                <source src="midias/audio/Hey Sailor - Letter Box.mp3" type="audio/mp3">
+                <source src="midias/audio/Hey Sailor - Letter Box.ogg" type="audio/ogg">
+                <source src="midias/audio/Hey-Sailor-Letter-Box.wav" type="audio/wav">
+            </audio>
+
+        <h2>Tag picture</h2>
+            <picture>
+                <source media="(max-width:500px)" srcset="midias/img/bike_110.jpg">  
+                <source media="(max-width:700px)" srcset="midias/img/bike_320.jpg">
+                <source media="(max-width:900px)" srcset="midias/img/bike_640.jpg">
+
+                <img src="midias/img/bike_full.jpg" alt="Bicicleta">
+            </picture>
+
+</font>
+</body>
+</html>

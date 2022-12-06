@@ -1,0 +1,12 @@
+body{
+    background-color: #b4eeda;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    background-color: rgb(5, 184, 124);
+    color:#b4eeda;
+    text-align: center;
+}
+h2,h3{
+    color: rgb(7, 102, 70);
+}

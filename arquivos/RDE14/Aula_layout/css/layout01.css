@@ -1,0 +1,55 @@
+body{/*Estilização do corpo do site*/
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    width:90%;/*Total de ocupação do texto do navegador*/
+    margin: 0 auto;/*Distribuição proporcional do conteúdo dos 90%*/
+    background: linear-gradient(to right, #0b1736, #1f3f66);/*Degrade*/
+}
+header{/*Definir cabeçalho*/
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #161616;
+    border-radius: 5px;/*Define o arredondamento dos cantos*/
+    margin-top: 10px;
+}
+.logo img{/*Estilizando a imagem do logo*/
+    width: 45%;/*Define o tamanho da imagem em relação ao aumento ou diminuição da largura do navegador*/
+    padding-top: 50px;
+}
+.navegacao{
+    overflow: hidden;
+}
+.navegacao a{/*Estilizando os hiperlinks*/
+    float: right;/*Disposição dos hiperlinks*/
+    padding: 10px;
+    color: rgb(173, 173, 173);
+    text-decoration: none;/*Elimina o sublinhado*/
+}
+.navegacao a:hover{/*Executa alguma ação quando passar o mouse por cima*/
+    color: #e32936;
+}
+.principal{
+    display: flex;/*Organiza a disposição do conteúdo. neste caso colocou as divs de conteúdo uma ao lado da outra*/
+    flex-direction: row;
+}
+.conteudo{/*Estilizando a class conteúdo*/
+    float: left;/*Disposição do conteúdo*/
+    margin: 15px 20px 25px 2px;/*Define a margem em sentido horário começando do top*/
+    background-color: gainsboro;
+    text-align: justify;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 10px 10px 10px #08101a98;/*Sombreamento*/
+}
+.rodape{
+    color: darkgray;
+    font-size: 10px;
+    text-align: center;
+    padding: 20px;
+}
+
+@media screen and (max-width:600px){/*Responsividade alteração do layout de acordo com o tamanho da tela*/
+    .principal, .conteudo{/*Definir as class que serão alteradas com os comandos*/
+        flex-direction: column;
+        padding: 3px;
+    }
+}
